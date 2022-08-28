@@ -1,0 +1,125 @@
+$SoftRed: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$darkDesaturateCyan: hsl(167, 40%, 24%);
+$DarkBluePhotographyText: hsl(198, 62%, 26%);
+$DarkModerateCyanFooter: hsl(168, 34%, 41%);
+$VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+$VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+$DarkGrayishBlue: hsl(232, 10%, 55%);
+$GrayishBlue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+$mobile:576px;
+$tablet:768px;
+$laptop:992px;
+$desktop:1200px;
+
+
+
+.main-content{
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+
+    .main-content-first{
+        background-image: url("../images/image-graphic-design.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 16rem 4rem 4rem 4rem ;
+
+
+}
+
+
+
+
+.main-content-first> h3{
+  color:$darkDesaturateCyan;
+  font-family: 'Fraunces', serif;
+  font-size: 14px;
+}
+.main-content-first > p{
+font-family: 'Barlow', sans-serif;
+padding: 1rem 3rem 2rem 3rem ;
+line-height: 1.4;
+color:$darkDesaturateCyan;
+
+
+}
+    .main-content-second{
+        background-image: url("../images/image-photography.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 16rem 3.8rem 4rem 3.8rem ;
+      
+    
+
+    }
+    .main-content-second  >  h3{
+      color:$DarkBluePhotographyText;
+      font-family: 'Fraunces', serif;
+      font-size: 14px;
+
+
+  }
+  .main-content-second > p{
+      font-family: 'Barlow', sans-serif;
+      line-height: 1.3;
+      padding: 1rem 3.8rem 2rem 3.8rem ;
+      color:$DarkBluePhotographyText;
+      
+    
+    }
+
+}
+
+
+@media (max-width:$laptop){
+  .main-content{
+    .main-content-first {
+
+      padding: 18rem 3.8rem 4rem 3.8rem ;
+    }
+    .main-content-second{
+      padding: 18rem 3.8rem 4rem 3.8rem ;
+    }
+  }
+
+}
+
+
+@media (max-width:$tablet){
+  .main-content{
+  display: flex;
+  flex-direction: column-reverse;
+  }
+}
+
+@media (max-width:$mobile) {
+  .main-content-first > p{
+    
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+
+  .main-content-second > p{
+    
+    font-size: 13px;
+    font-weight: 700;
+
+  }
+  
+  
+}
+

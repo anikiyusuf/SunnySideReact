@@ -1,0 +1,65 @@
+$SoftRed: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$darkDesaturateCyan: hsl(167, 40%, 24%);
+$DarkBluePhotographyText: hsl(198, 62%, 26%);
+$DarkModerateCyanFooter: hsl(168, 34%, 41%);
+$VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+$VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+$DarkGrayishBlue: hsl(232, 10%, 55%);
+$GrayishBlue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+$mobile:576px;
+$tablet:768px;
+$laptop:992px;
+$desktop:1200px;
+
+
+ .client-main > img{
+   object-fit: cover;
+   border-radius: 50%;
+   height: auto;
+   width:50px
+    
+ }
+ .client-main > p {
+    font-size: 14px;
+    padding:3rem 1rem 3rem 1rem ;
+    font-weight: 700;
+    color:$VeryDarkDesaturatedBlue;
+    line-height: 1.5;
+    font-family: 'Barlow', sans-serif;
+}
+
+.client-main > h2{
+    font-size: 16px;
+    color: $VeryDarkDesaturatedBlue;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-family: Fraunces, serif; 
+}
+
+.client-main > h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    color:$DarkGrayishBlue;
+}
+
+
+
+
+
+ 
+@media (max-width:$tablet) {
+    .client-main{
+        padding:1rem 5rem 3rem 5rem ;
+    }
+    
+}
+
+
+
+@media (max-width:$mobile){
+    .client-main{
+        padding: 2rem 0.7rem 0.7rem 0.7rem;
+    }
+}

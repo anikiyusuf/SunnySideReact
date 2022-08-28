@@ -1,0 +1,75 @@
+.main-content {
+  display: flex;
+  font-family: "Barlow", sans-serif;
+}
+.main-content .main-content-first {
+  background-image: url("../images/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 16rem 4rem 4rem 4rem;
+}
+.main-content .main-content-first > h3 {
+  color: hsl(167deg, 40%, 24%);
+  font-family: "Fraunces", serif;
+  font-size: 14px;
+}
+.main-content .main-content-first > p {
+  font-family: "Barlow", sans-serif;
+  padding: 1rem 3rem 2rem 3rem;
+  line-height: 1.4;
+  color: hsl(167deg, 40%, 24%);
+}
+.main-content .main-content-second {
+  background-image: url("../images/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 16rem 3.8rem 4rem 3.8rem;
+}
+.main-content .main-content-second > h3 {
+  color: hsl(198deg, 62%, 26%);
+  font-family: "Fraunces", serif;
+  font-size: 14px;
+}
+.main-content .main-content-second > p {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.3;
+  padding: 1rem 3.8rem 2rem 3.8rem;
+  color: hsl(198deg, 62%, 26%);
+}
+
+@media (max-width: 992px) {
+  .main-content .main-content-first {
+    padding: 18rem 3.8rem 4rem 3.8rem;
+  }
+  .main-content .main-content-second {
+    padding: 18rem 3.8rem 4rem 3.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .main-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 576px) {
+  .main-content-first > p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .main-content-second > p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=ContainerTwo.css.map */

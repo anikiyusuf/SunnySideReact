@@ -1,0 +1,56 @@
+$SoftRed: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$darkDesaturateCyan: hsl(167, 40%, 24%);
+$DarkBluePhotographyText: hsl(198, 62%, 26%);
+$DarkModerateCyanFooter: hsl(168, 34%, 41%);
+$VeryDark-desaturatedBlue: hsl(212, 27%, 19%);
+$VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+$DarkGrayishBlue: hsl(232, 10%, 55%);
+$GrayishBlue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+$mobile:576px;
+$tablet:768px;
+$laptop:992px;
+$desktop:1200px;
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    body{
+      cursor:pointer;
+      scroll-behavior: smooth;
+    }
+}
+.App{
+    height: 100vh;
+}
+.client-section-all{
+  align-items: center;
+  padding: 10rem 2rem 2rem 2rem ;
+}
+.client-section-all > h1{
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  color:$DarkGrayishBlue;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.client-section{
+  display: flex;
+  padding: 3rem 3rem 3rem 3rem;
+  text-align: center;
+}
+@media(max-width:$tablet) {
+  .client-section{
+    flex-direction: column;
+  
+  }
+  
+}
+
